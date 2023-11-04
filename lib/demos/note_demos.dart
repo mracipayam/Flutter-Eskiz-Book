@@ -8,7 +8,7 @@ class NoteDemos extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey[50],
       appBar: AppBar(),
-      body: Padding(
+      body: const Padding(
         padding: PaddingItems.horizontalPaddings,
         child: Column(
           children: [

@@ -7,14 +7,14 @@ class ScaffoldLearnView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(
+      body: const Center(
         child: Text('Merhaba'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showModalBottomSheet(
               context: context,
-              builder: (context) => Container(
+              builder: (context) => const SizedBox(
                     height: 500,
                     child: Center(
                       child: Text("Seni Seviyorum Canım Karım"),

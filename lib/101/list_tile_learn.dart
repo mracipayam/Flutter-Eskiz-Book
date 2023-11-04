@@ -23,7 +23,7 @@ class ListTileLearn extends StatelessWidget {
               onTap: () {
                 print("You choose whisle!");
               },
-              leading: Icon(Icons.abc),
+              leading: const Icon(Icons.abc),
             ),
           ),
         ],

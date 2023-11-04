@@ -7,8 +7,8 @@ class CardLearn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Column(
-        children: const [
+      body: const Column(
+        children: [
           CustomCard(
             color: Colors.red,
             child: SizedBox(
@@ -22,6 +22,7 @@ class CardLearn extends StatelessWidget {
             ),
           ),
           CustomCard(
+              color: Colors.yellow,
               child: SizedBox(
                 height: 50,
                 width: 50,
@@ -31,8 +32,7 @@ class CardLearn extends StatelessWidget {
                     style: TextStyle(color: Colors.black),
                   ),
                 ),
-              ),
-              color: Colors.yellow),
+              )),
         ],
       ),
     );

@@ -20,7 +20,7 @@ class StackDemoView extends StatelessWidget {
                       "profile.jpg",
                       fit: BoxFit.cover,
                     )),
-                Positioned(height: _cardHeight, bottom: 0, width: 200, child: CustomCard()),
+                Positioned(height: _cardHeight, bottom: 0, width: 200, child: const CustomCard()),
               ],
             ),
           ),

@@ -18,8 +18,8 @@ class _NavigateDetailLearnDartState extends State<NavigateDetailLearnDart> {
           onPressed: () {
             Navigator.of(context).pop(true);
           },
-          icon: Icon(Icons.check),
-          label: Text('Onayla'),
+          icon: const Icon(Icons.check),
+          label: const Text('Onayla'),
         ),
       ),
     );

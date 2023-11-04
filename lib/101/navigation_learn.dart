@@ -25,7 +25,7 @@ class _NavigationLearnState extends State<NavigationLearn>
         return const Padding(
           padding: EdgeInsets.all(8.0),
           child: Placeholder(
-            // color: selectedItems.contains(index) ?  Colors.green :  Colors.red,
+            //color: selectedItems.contains(index) ?  Colors.green :  Colors.red,
             color: Colors.red,
           ),
         );
@@ -34,7 +34,7 @@ class _NavigationLearnState extends State<NavigationLearn>
         child: const Icon(Icons.navigation_rounded),
         onPressed: () async {
           final response = await navigateToWidgetNormal<bool>(
-              context, NavigateDetailLearnDart());
+              context, const NavigateDetailLearnDart());
           if (response == true) {}
         },
       ),

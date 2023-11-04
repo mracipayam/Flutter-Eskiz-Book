@@ -27,7 +27,7 @@ class _MyCollectionDemosState extends State<MyCollectionDemos> {
       appBar: AppBar(),
       body: ListView.builder(
         itemCount: _items.length,
-        padding: EdgeInsets.all(8),
+        padding: const EdgeInsets.all(8),
         itemBuilder: (context, index) {
           return Card(
               child: SizedBox(

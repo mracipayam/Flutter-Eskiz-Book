@@ -19,7 +19,7 @@ class AppBarView extends StatelessWidget {
           const Center(child: CircularProgressIndicator()),
         ],
       ),
-      body: Column(),
+      body: const Column(),
     );
   }
 }

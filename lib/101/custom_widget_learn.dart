@@ -38,7 +38,7 @@ class CustomButton extends StatelessWidget {
         padding: _PaddingUtility.buttonPadding,
         child: Text(
           data,
-          style: TextStyle(color: Colors.white),
+          style: const TextStyle(color: Colors.white),
         ),
       ),
     );
@@ -50,5 +50,5 @@ class _ColorsUtility {
 }
 
 class _PaddingUtility {
-  static final buttonPadding = EdgeInsets.all(8.0);
+  static const buttonPadding = EdgeInsets.all(8.0);
 }

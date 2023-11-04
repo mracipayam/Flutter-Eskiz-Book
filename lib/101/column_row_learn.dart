@@ -7,8 +7,8 @@ class ColumnRowLearn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Column(
-        children: const [
+      body: const Column(
+        children: [
           FlutterLogo(),
           FlutterLogo(),
         ],

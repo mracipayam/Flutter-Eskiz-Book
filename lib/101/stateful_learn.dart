@@ -29,7 +29,7 @@ class _StatefulLearnState extends State<StatefulLearn> {
         children: [
           Center(child: Text(_countValue.toString())),
           const Placeholder(),
-          CounterHelloButton(),
+          const CounterHelloButton(),
         ],
       ),
       floatingActionButton: Row(
